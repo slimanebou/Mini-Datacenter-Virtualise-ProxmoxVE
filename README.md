@@ -60,7 +60,7 @@ Le projet reproduit, à l'échelle d'un poste de travail, les briques d'un datac
 ## 🗺️ Architecture
 
 <div align="center">
-  <img src="diagrams/topologie.svg" alt="Architecture et politique de sécurité du mini datacenter" width="100%">
+  <img src="diagrams/topologie.png" alt="Architecture et politique de sécurité du mini datacenter" width="100%">
   <br><em>Zones, VMs, adressage, flux et règles pfSense sur un seul schéma</em>
 </div>
 
