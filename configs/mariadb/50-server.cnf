@@ -1,0 +1,14 @@
+# Extrait de /etc/mysql/mariadb.conf.d/50-server.cnf
+# Serveur MariaDB · VLAN 10 · 192.168.10.99
+# Seule la ligne bind-address a été modifiée par rapport à la configuration par défaut.
+
+[mysqld]
+
+# Par défaut : 127.0.0.1 (écoute locale uniquement)
+# Modifié pour accepter les connexions réseau.
+# L'accès réel reste limité par :
+#   - pfSense : seul 192.168.20.10 peut joindre le port 3306
+#   - MariaDB : web_user n'existe que pour l'hôte 192.168.20.10
+bind-address = 0.0.0.0
+
+port = 3306
